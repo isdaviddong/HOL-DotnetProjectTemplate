@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageType>Template</PackageType>
+    <PackageId>Company.Namespace.ProjectTempalteName</PackageId>
+    <Title>LINE Bot push sample</Title>
+    <Authors>作者名稱</Authors>
+    <Description>Company.Namespace.ProjectTempalteName</Description>
+    <PackageTags>dotnet-new;templates;</PackageTags>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Company Name</Company>
+    <Version>1.0.18</Version>
+    <Product>Product Name</Product>
+    <Copyright>Copyright</Copyright>
+    <PackageReleaseNotes>改版資訊</PackageReleaseNotes>
+    <AssemblyVersion>1.0.18</AssemblyVersion>
+    <FileVersion>1.0.18</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+
+</Project>

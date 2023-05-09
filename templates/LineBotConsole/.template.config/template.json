@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "作者名稱",
+  "classifications": [ "Console" ],
+  "identity": "Company.Namespace.ProjectTempalteName",
+  "name": "LINE Bot push sample",
+  "shortName": "linebotpush",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "LineBotConsole",
+  "preferNameDirectory": true,
+  "symbols": {
+    "ChannelAccessToken": {
+      "type": "parameter",
+      "defaultValue": "_____replace_with_your_channel_access_token_____",
+      "replaces": "$ChannelAccessToken$"
+    },
+    "UserId": {
+      "type": "parameter",
+      "defaultValue": "_____replace_with_your_userId_____",
+      "replaces": "$UserId$"
+    }
+  }
+}
