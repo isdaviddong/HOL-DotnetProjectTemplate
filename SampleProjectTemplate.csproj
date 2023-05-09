@@ -4,16 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageType>Template</PackageType>
     <PackageId>Company.Namespace.ProjectTempalteName</PackageId>
-    <Title>LINE Bot push sample</Title>
+    <Title>範本名稱</Title>
     <Authors>作者名稱</Authors>
-    <Description>Company.Namespace.ProjectTempalteName</Description>
+    <Description>範本說明</Description>
     <PackageTags>dotnet-new;templates;</PackageTags>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Company>Company Name</Company>
+    <Company>公司名稱</Company>
     <Version>1.0.18</Version>
     <Product>Product Name</Product>
     <Copyright>Copyright</Copyright>
